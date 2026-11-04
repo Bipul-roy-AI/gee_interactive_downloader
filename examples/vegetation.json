@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "software_version": "2.0.0",
+  "parameters": {
+    "dataset": "Sentinel-2 SR",
+    "start": "2024-01-01",
+    "end": "2024-02-01",
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            90.4,
+            23.8
+          ],
+          [
+            90.41,
+            23.8
+          ],
+          [
+            90.41,
+            23.81
+          ],
+          [
+            90.4,
+            23.81
+          ],
+          [
+            90.4,
+            23.8
+          ]
+        ]
+      ]
+    },
+    "reducer": "median",
+    "scale": 20,
+    "crs": "EPSG:4326",
+    "index": "NDVI",
+    "cloud": 80,
+    "orbit": "DESCENDING",
+    "relative_orbit": 0,
+    "scene_id": ""
+  },
+  "asset": "COPERNICUS/S2_SR_HARMONIZED",
+  "end_date_exclusive": true,
+  "processing_note": "10/20 m source bands; default common output grid 20 m. SCL excludes no-data, saturated, shadow, cloud, cirrus and snow pixels.",
+  "temporal_operation": "median"
+}

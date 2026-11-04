@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "software_version": "2.0.0",
+  "parameters": {
+    "dataset": "CHIRPS daily rain",
+    "start": "2024-01-01",
+    "end": "2024-02-01",
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            90,
+            23
+          ],
+          [
+            91,
+            23
+          ],
+          [
+            91,
+            24
+          ],
+          [
+            90,
+            24
+          ],
+          [
+            90,
+            23
+          ]
+        ]
+      ]
+    },
+    "reducer": "sum",
+    "scale": 5566,
+    "crs": "EPSG:4326",
+    "index": "None",
+    "cloud": 80,
+    "orbit": "DESCENDING",
+    "relative_orbit": 0,
+    "scene_id": ""
+  },
+  "asset": "UCSB-CHG/CHIRPS/DAILY",
+  "end_date_exclusive": true,
+  "processing_note": "Daily gridded precipitation, about 0.05 degrees. Missing days are not filled. Verify temporal coverage before using sums.",
+  "temporal_operation": "sum"
+}
